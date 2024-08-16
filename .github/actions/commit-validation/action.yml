@@ -1,0 +1,10 @@
+name: 'Commit Validation'
+description: 'Validates commit messages for proper format'
+author: 'abdulvahabaa916@gmail.com'
+inputs:
+  commit_message:
+    description: 'The commit message to validate'
+    required: true
+runs:
+  using: 'node16' # or 'docker', 'composite'
+  main: 'index.js'

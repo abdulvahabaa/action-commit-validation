@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This repo is being used for globally validating commits in all of my repositories.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",

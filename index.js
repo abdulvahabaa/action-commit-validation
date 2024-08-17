@@ -9,7 +9,7 @@ try {
   // Check if the commit message starts with a valid prefix
   const hasValidPrefix = validPrefixes.some(prefix => commitMessage.startsWith(prefix));
   
-  // Extract the body of the commit message
+  // Extract the body of the commit message 
   const commitBody = commitMessage.split(':')[1]?.trim();
 
   // Define regex to check if body is lowercase and contains no numbers
